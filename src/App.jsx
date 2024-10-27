@@ -2,7 +2,8 @@ import React from 'react'
 import Navbar from './components/navbar'
 import Features from './components/features'
 import Work from './components/work.jsx'
-import { Route,Routes } from 'react-router-dom'
+import Contact from './components/contact.jsx'
+import Footer from './components/footer.jsx'
 
 function App() {
   
@@ -10,10 +11,12 @@ function App() {
   return (
     <>
       
-        <div className=''>
+        <div className='clr'>
           <Navbar/>
           <Features/>
           <Work/>
+          <Contact/>
+          <Footer/>
           
       
       </div>

@@ -8,7 +8,7 @@ import skills from '../../public/images/Skills.png'
 function Front() {
     return (
         <>
-        <div className='clr flex flex-row w-100% justify '>
+        <div className=' flex flex-row w-100% justify '>
         <div className='w-1/2 ml-64 mt-36'>
         <h1 className='text-6xl text-white font-bold'>Build Your</h1>
         <h1 className='text-6xl text-white font-bold'>Awesome</h1>
