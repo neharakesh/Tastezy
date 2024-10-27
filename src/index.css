@@ -42,3 +42,9 @@ body{
   .clr{
     background: linear-gradient(135deg,#1e0533,#110a1f);
   }
+  .image{
+    width: 895px;
+    height: 875.5px;
+    top: 1363px;
+    
+  }
