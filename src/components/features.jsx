@@ -16,12 +16,28 @@ function Front() {
         <p className='text-gray-500 font-semibold mt-4'>Enver studio is a digital studio that offers several services</p>
         <p className='text-gray-500 font-semibold'>such as UI/UX Design to developers, we will provide the best </p>
         <p className='text-gray-500 font-semibold'>services for those of you who use our services</p>
+        <button className="flex items-center bg-violet-600 text-white font-semibold py-2 px-4 rounded-md shadow-lg hover:bg-violet-700 transition duration-200 mt-5">
+  <span>Our Service</span>
+  <svg 
+    xmlns="http://www.w3.org/2000/svg" 
+    className="w-4 h-4 ml-2" 
+    fill="none" 
+    viewBox="0 0 24 24" 
+    stroke="currentColor" 
+    aria-hidden="true"
+  >
+    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+  </svg>
+</button>
+
         </div>
+        
+
         <div className='w-1/2 mr-56 mt-20'>
         <div className='block'>
 
             </div>
-            <img className='z-10 ' src={features} alt="" />
+            <img className=' ' src={features} alt="" />
             
         </div>
     </div>
