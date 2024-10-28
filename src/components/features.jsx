@@ -1,6 +1,5 @@
 import React from 'react'
-import Bar1 from '../../public/images/bar.jpg'
-import Robo1 from '../../public/images/Robo1.jpg'
+
 import features from '../../public/images/features.png'
 import { TbStack2Filled } from "react-icons/tb";
 import { FcSms } from "react-icons/fc";
