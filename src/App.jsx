@@ -3,7 +3,7 @@ import Navbar from './components/navbar'
 import Features from './components/features'
 import Work from './components/work.jsx'
 import Contact from './components/contact.jsx'
-import Footer from './components/footer.jsx'
+import Footer from './components/Footer.jsx'
 
 function App() {
   
