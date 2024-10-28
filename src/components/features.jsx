@@ -18,9 +18,15 @@ function Front() {
         <p className='text-gray-500 font-semibold'>services for those of you who use our services</p>
         </div>
         <div className='w-1/2 mr-56 mt-20'>
-            <img className='' src={features} alt="" />
+        <div className='block'>
+
+            </div>
+            <img className='z-10 ' src={features} alt="" />
+            
         </div>
     </div>
+    
+    
 
     <div className="md:flex  p-28 md:flex-row grid grid-cols-2 gap-5 justify-center ">
     <div className="flex flex-col items-center text-center transition duration-500 ease-out hover:-translate-y-5 cursor-pointer">

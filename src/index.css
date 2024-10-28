@@ -48,4 +48,17 @@ body{
     top: 1363px;
     
   }
+  .block {
+    width: 375.34px;
+    height: 375.34px;
+    position: absolute;
+    top: 280.63px;
+    left: 835.02px;
+    border-radius: 22.18px;
+    border: 2px solid white; 
+    transform: rotate(23.6deg); 
+    background-color: transparent; 
+    
+}
+
  
