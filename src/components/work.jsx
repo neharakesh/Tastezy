@@ -1,6 +1,6 @@
 import React from 'react';
 import mask from '../../public/images/mask.png';
-import portfolio from '../../public/images/portfolio.png'
+import portfolio from '../../public/images/Portfolio.png'
 function Work() {
     return (
         <>

@@ -2,16 +2,7 @@ import React, { useEffect, useState } from 'react';
 
 
 function Navbar() {
-    // Dark and light mode
-    
-
-    
-
-    
-    
-        
-        
-        const [open,setOpen]=useState(false)
+    const [open,setOpen]=useState(false)
 
     return (
         <>
