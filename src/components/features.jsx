@@ -7,8 +7,8 @@ import skills from '../../public/images/Skills.png'
 function Front() {
     return (
         <>
-        <div className=' flex flex-row w-100% justify '>
-        <div className='w-1/2 ml-64 mt-36'>
+        <div className=' flex flex-col md:flex-row items-center justify-between w-full p-8 md:p-16"'>
+        <div className='w-full md:w-1/2 md:ml-16 lg:ml-64 mt-12 md:mt-36 text-center md:text-left'>
         <h1 className='text-6xl text-white font-bold'>Build Your</h1>
         <h1 className='text-6xl text-white font-bold'>Awesome</h1>
         <h1 className='text-6xl text-white font-bold'>Paltform</h1>
@@ -32,11 +32,11 @@ function Front() {
         </div>
         
 
-        <div className='w-1/2 mr-56 mt-20'>
-        <div className='block'>
+        <div className='w-1/2 mr-56 mt-20 md:justify-center flex'>
+        <div className='block' >
 
             </div>
-            <img className=' ' src={features} alt="" />
+            <img className='-full max-w-md lg:max-w-lg" ' src={features} alt="" />
             
         </div>
     </div>

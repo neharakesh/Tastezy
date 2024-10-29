@@ -4,11 +4,11 @@ import portfolio from '../../public/images/Portfolio.png'
 function Work() {
     return (
         <>
-        <div className=" py-12  text-white">
+        <div className=" py-12  text-white md:justify-center flex">
             <div className="flex flex-col md:flex-row items-center justify-center space-y-8 md:space-y-0 md:space-x-8 max-w-5xl mx-auto p-6 rounded-lg bg-opacity-80">
                 
                 {/* Left portion */}
-                <div className="relative w-full md:w-1/2 text-center md:text-left ">
+                <div className="relative w-full md:w-1/2 text-center md:text-left md:justify-center flex">
         <div className="relative z-10">
             <h3 className="text-md font-semibold text-purple-400 ml-24 space-y-5">Featured Project</h3>
             <h1 className="text-4xl font-bold text-white ml-24 mb-10">Example Project</h1>
